@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="home" id="U6b-Vx-4bR" customClass="MainHeaderCollectionReusableView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <imageView clipsSubviews="YES" contentMode="scaleAspectFill" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="demo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="G3o-QX-zQV" userLabel="banner">
+                    <rect key="frame" x="0.0" y="69" width="320" height="130"/>
+                    <gestureRecognizers/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1vJ-SP-8EC" userLabel="tiao View">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="70"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="InC-V9-RQ7" userLabel="center line View">
+                            <rect key="frame" x="159.5" y="15" width="1" height="40"/>
+                            <color key="backgroundColor" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="Dam-Bf-kAi"/>
+                                <constraint firstAttribute="width" constant="1" id="FC8-Ym-lfk"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="15553233333" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="hLd-dZ-yrZ" userLabel="phoneLabel">
+                            <rect key="frame" x="8" y="15" width="95" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2F-oy-Cqu">
+                            <rect key="frame" x="111" y="15" width="45" height="40"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                            <state key="normal" title="已暂停">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xtm-2A-rRA">
+                            <rect key="frame" x="173.5" y="15" width="138.5" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="wkz-gH-tTY"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="请登录">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="disabled" title="已签到"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.91673403978347778" green="0.27537554502487183" blue="0.20103919506072998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="0vi-S1-rE1"/>
+                        <constraint firstAttribute="trailing" secondItem="xtm-2A-rRA" secondAttribute="trailing" constant="8" id="3Ne-8j-WhY"/>
+                        <constraint firstItem="xtm-2A-rRA" firstAttribute="top" secondItem="1vJ-SP-8EC" secondAttribute="top" constant="15" id="3k2-7o-gQZ"/>
+                        <constraint firstItem="InC-V9-RQ7" firstAttribute="centerX" secondItem="1vJ-SP-8EC" secondAttribute="centerX" id="8AQ-ZR-A0k"/>
+                        <constraint firstItem="InC-V9-RQ7" firstAttribute="top" secondItem="1vJ-SP-8EC" secondAttribute="top" constant="15" id="fzR-Ch-8rU"/>
+                        <constraint firstItem="xtm-2A-rRA" firstAttribute="leading" secondItem="InC-V9-RQ7" secondAttribute="trailing" constant="13" id="kWn-kG-r49"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9R8-6p-aaX">
+                    <rect key="frame" x="0.0" y="69" width="320" height="131"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="G3o-QX-zQV" secondAttribute="bottom" constant="1" id="COy-q6-Eaw"/>
+                <constraint firstAttribute="trailing" secondItem="G3o-QX-zQV" secondAttribute="trailing" id="Dmp-B5-uSq"/>
+                <constraint firstItem="1vJ-SP-8EC" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="Fue-Mo-xv2"/>
+                <constraint firstItem="G3o-QX-zQV" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" constant="69" id="PmT-FN-vyj"/>
+                <constraint firstAttribute="trailing" secondItem="1vJ-SP-8EC" secondAttribute="trailing" id="Rar-4Z-USP"/>
+                <constraint firstItem="G3o-QX-zQV" firstAttribute="leading" secondItem="U6b-Vx-4bR" secondAttribute="leading" id="UKX-PL-W2Q"/>
+                <constraint firstItem="1vJ-SP-8EC" firstAttribute="top" secondItem="U6b-Vx-4bR" secondAttribute="top" id="hnK-xy-QDW"/>
+            </constraints>
+            <connections>
+                <outlet property="bannerBtn" destination="9R8-6p-aaX" id="75i-u4-mOU"/>
+                <outlet property="bannerImgView" destination="G3o-QX-zQV" id="lEp-ww-pU8"/>
+                <outlet property="login_out_btn" destination="xtm-2A-rRA" id="027-hw-cva"/>
+                <outlet property="phoneLabel" destination="hLd-dZ-yrZ" id="eok-hQ-4vP"/>
+                <outlet property="statesBtn" destination="W2F-oy-Cqu" id="QHk-XQ-aEA"/>
+            </connections>
+            <point key="canvasLocation" x="40" y="-26"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="demo.jpg" width="764" height="403"/>
+    </resources>
+</document>

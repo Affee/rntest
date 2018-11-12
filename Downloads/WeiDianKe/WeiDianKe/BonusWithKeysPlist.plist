@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>11</key>
+	<string>iPhone6</string>
+	<key>12</key>
+	<string>iPhone7</string>
+	<key>21</key>
+	<string>钻石会员1天</string>
+	<key>22</key>
+	<string>钻石会员30天</string>
+	<key>23</key>
+	<string>钻石会员永久</string>
+	<key>24</key>
+	<string>钻石会员永久</string>
+	<key>25</key>
+	<string>黄金会员1天</string>
+	<key>26</key>
+	<string>黄金会员永久</string>
+	<key>31</key>
+	<string>50个客源名额</string>
+	<key>32</key>
+	<string>100个客源名额</string>
+	<key>33</key>
+	<string>500个客源名额</string>
+	<key>34</key>
+	<string>10000个客源名额</string>
+</dict>
+</plist>

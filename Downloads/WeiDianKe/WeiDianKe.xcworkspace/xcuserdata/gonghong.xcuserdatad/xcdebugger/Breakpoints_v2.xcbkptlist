@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.ExceptionBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            scope = "0"
+            stopOnStyle = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "viewcontrollers/PayMentSelectViewController.m"
+            timestampString = "532851810.932063"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "415"
+            endingLineNumber = "415"
+            landmarkName = "-zhifubaoPay"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__42-[PayMentSelectViewController zhifubaoPay]_block_invoke_2.302"
+                  moduleName = "WeiDianKe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yyliu/Desktop/%E5%BE%AE%E7%82%B9%E5%AE%A2/WeiDianKe(iOS%EF%BC%89/viewcontrollers/PayMentSelectViewController.m"
+                  timestampString = "532861637.940154"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "415"
+                  endingLineNumber = "415"
+                  offsetFromSymbolStart = "509">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__42-[PayMentSelectViewController zhifubaoPay]_block_invoke_3.303"
+                  moduleName = "WeiDianKe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yyliu/Desktop/%E5%BE%AE%E7%82%B9%E5%AE%A2/WeiDianKe(iOS%EF%BC%89/viewcontrollers/PayMentSelectViewController.m"
+                  timestampString = "532861637.942543"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "416"
+                  endingLineNumber = "416"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "viewcontrollers/PayMentSelectViewController.m"
+            timestampString = "532851810.932343"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "361"
+            endingLineNumber = "361"
+            landmarkName = "-zhifubaoPay"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__42-[PayMentSelectViewController zhifubaoPay]_block_invoke_2.279"
+                  moduleName = "WeiDianKe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yyliu/Desktop/%E5%BE%AE%E7%82%B9%E5%AE%A2/WeiDianKe(iOS%EF%BC%89/viewcontrollers/PayMentSelectViewController.m"
+                  timestampString = "532861637.947044"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "361"
+                  endingLineNumber = "361"
+                  offsetFromSymbolStart = "305">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__42-[PayMentSelectViewController zhifubaoPay]_block_invoke_3"
+                  moduleName = "WeiDianKe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yyliu/Desktop/%E5%BE%AE%E7%82%B9%E5%AE%A2/WeiDianKe(iOS%EF%BC%89/viewcontrollers/PayMentSelectViewController.m"
+                  timestampString = "532861637.948693"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "362"
+                  endingLineNumber = "362"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "viewcontrollers/PayMentSelectViewController.m"
+            timestampString = "532851810.932561"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "317"
+            endingLineNumber = "317"
+            landmarkName = "-zhifubaoPay"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__42-[PayMentSelectViewController zhifubaoPay]_block_invoke"
+                  moduleName = "WeiDianKe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yyliu/Desktop/%E5%BE%AE%E7%82%B9%E5%AE%A2/WeiDianKe(iOS%EF%BC%89/viewcontrollers/PayMentSelectViewController.m"
+                  timestampString = "532861637.952528"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "317"
+                  endingLineNumber = "317"
+                  offsetFromSymbolStart = "376">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__42-[PayMentSelectViewController zhifubaoPay]_block_invoke_2"
+                  moduleName = "WeiDianKe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yyliu/Desktop/%E5%BE%AE%E7%82%B9%E5%AE%A2/WeiDianKe(iOS%EF%BC%89/viewcontrollers/PayMentSelectViewController.m"
+                  timestampString = "532861637.954222"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "318"
+                  endingLineNumber = "318"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "viewcontrollers/QrCodeViewController.m"
+            timestampString = "532861637.718743"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "268"
+            endingLineNumber = "268">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

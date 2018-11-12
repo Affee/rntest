@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelectOtherViewController">
+            <connections>
+                <outlet property="tableView" destination="Tr8-Lt-KMz" id="jg1-MD-4PY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Tr8-Lt-KMz">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="518"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                    <view key="tableHeaderView" contentMode="scaleToFill" id="WLb-E5-C5H">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <view key="tableFooterView" contentMode="scaleToFill" id="NIl-rO-KYL">
+                        <rect key="frame" x="0.0" y="517" width="320" height="1"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="B9x-87-yYz"/>
+                        <outlet property="delegate" destination="-1" id="qxU-sX-IqB"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nux-xK-djN">
+                    <rect key="frame" x="15" y="520" width="290" height="44"/>
+                    <color key="backgroundColor" red="0.88235294119999996" green="0.1843137255" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="jPO-LC-5F9"/>
+                    </constraints>
+                    <state key="normal" title="确认">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="ok:" destination="-1" eventType="touchUpInside" id="412-gv-X7n"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Tr8-Lt-KMz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="61U-Wx-i9Z"/>
+                <constraint firstAttribute="trailing" secondItem="nux-xK-djN" secondAttribute="trailing" constant="15" id="8Ik-po-ip0"/>
+                <constraint firstAttribute="bottom" secondItem="Tr8-Lt-KMz" secondAttribute="bottom" constant="50" id="By8-Lv-yhL"/>
+                <constraint firstItem="Tr8-Lt-KMz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="eAq-NF-T6e"/>
+                <constraint firstAttribute="bottom" secondItem="nux-xK-djN" secondAttribute="bottom" constant="4" id="fR7-l7-Ao5"/>
+                <constraint firstItem="nux-xK-djN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="jWf-Lb-wHq"/>
+                <constraint firstAttribute="trailing" secondItem="Tr8-Lt-KMz" secondAttribute="trailing" id="rt9-Az-bpS"/>
+            </constraints>
+            <point key="canvasLocation" x="215" y="348"/>
+        </view>
+    </objects>
+</document>

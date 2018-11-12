@@ -1,0 +1,64 @@
+PODS:
+  - AFNetworking (3.0.4):
+    - AFNetworking/NSURLSession (= 3.0.4)
+    - AFNetworking/Reachability (= 3.0.4)
+    - AFNetworking/Security (= 3.0.4)
+    - AFNetworking/Serialization (= 3.0.4)
+    - AFNetworking/UIKit (= 3.0.4)
+  - AFNetworking/NSURLSession (3.0.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.4)
+  - AFNetworking/Security (3.0.4)
+  - AFNetworking/Serialization (3.0.4)
+  - AFNetworking/UIKit (3.0.4):
+    - AFNetworking/NSURLSession
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - HappyDNS (0.3.10)
+  - JPush (3.0.0)
+  - MJRefresh (2.4.9)
+  - pop (1.0.9)
+  - QBImagePickerController (3.4.0)
+  - Qiniu (7.1.4):
+    - AFNetworking (~> 3)
+    - HappyDNS (~> 0.3)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - TPKeyboardAvoiding (1.2.11)
+  - UMengSocial (5.0)
+  - XGPush (2.3)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0.0)
+  - FMDB
+  - JPush
+  - MJRefresh (= 2.4.9)
+  - pop (= 1.0.9)
+  - QBImagePickerController
+  - Qiniu (~> 7.1)
+  - SDWebImage (= 3.7.3)
+  - TPKeyboardAvoiding (= 1.2.11)
+  - UMengSocial (= 5.0)
+  - XGPush (~> 2.3)
+
+SPEC CHECKSUMS:
+  AFNetworking: a0075feb321559dc78d9d85b55d11caa19eabb93
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  HappyDNS: 06a9fed2796663fd87626dbf02552933265bf059
+  JPush: 042699376efe1d511ef32e0ef1a41deb1b6da123
+  MJRefresh: be84acb912d0a66364f76a75426698a39528e2ed
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  QBImagePickerController: d54cf93db6decf26baf6ed3472f336ef35cae022
+  Qiniu: a4c962782035ee25b9da3e195181d8c384bb75be
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  TPKeyboardAvoiding: e5ce146b313de063957bfa75a13f1e9b0ff18ab7
+  UMengSocial: 48b67179c492a8cf7803fbb0438b8f55432e2fc1
+  XGPush: fa2e9fce1895ea238bcd92dd0a5189a5452e15f2
+
+PODFILE CHECKSUM: 8d8b47c5633f2a6ee03cd6addf654470e2f8a381
+
+COCOAPODS: 1.3.1

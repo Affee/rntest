@@ -1,0 +1,15 @@
+platform :ios, ‘8.0‘
+target "WeiDianKe" do
+pod 'AFNetworking', '~> 3.0.0'
+pod 'SDWebImage', '3.7.3'
+pod 'MJRefresh', '2.4.9'
+pod 'Qiniu',"~> 7.1"
+pod 'TPKeyboardAvoiding', '1.2.11'
+pod 'QBImagePickerController'
+pod 'UMengSocial', '5.0'
+pod 'FMDB'
+pod 'pop', '1.0.9'
+pod 'XGPush', '~> 2.3'
+pod 'JPush'
+end
+

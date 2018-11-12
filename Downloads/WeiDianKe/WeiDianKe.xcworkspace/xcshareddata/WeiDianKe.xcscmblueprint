@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "dbcc64ef-27f5-46eb-9529-5e03bddbf980",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "dbcc64ef-27f5-46eb-9529-5e03bddbf980" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "dbcc64ef-27f5-46eb-9529-5e03bddbf980" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D927A67F-A4DD-4EEC-9FFB-C677D81CA792",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "dbcc64ef-27f5-46eb-9529-5e03bddbf980" : "HeiZiSVN\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "WeiDianKe",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "WeiDianKe\/WeiDianKe.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/139.129.222.239\/ios_app",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "dbcc64ef-27f5-46eb-9529-5e03bddbf980"
+    }
+  ]
+}

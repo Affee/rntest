@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FitPhoneViewController">
+            <connections>
+                <outlet property="tableView" destination="xYl-jg-E41" id="cjH-aD-dds"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xYl-jg-E41">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="518"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <inset key="separatorInset" minX="15" minY="0.0" maxX="15" maxY="0.0"/>
+                    <view key="tableHeaderView" contentMode="scaleToFill" id="WS0-Zl-aFV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <view key="tableFooterView" contentMode="scaleToFill" id="MMh-zj-VjM" userLabel="foot View">
+                        <rect key="frame" x="0.0" y="468" width="320" height="50"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="CrR-uh-ajL"/>
+                        <outlet property="delegate" destination="-1" id="C7y-Gb-v5X"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Uc-rf-cls">
+                    <rect key="frame" x="15" y="520" width="290" height="44"/>
+                    <color key="backgroundColor" red="0.88235294119999996" green="0.1843137255" blue="0.23529411759999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="kgs-32-Q2X"/>
+                    </constraints>
+                    <state key="normal" title="筛选">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="okNow:" destination="-1" eventType="touchUpInside" id="kSR-Lx-hnY"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="0Uc-rf-cls" secondAttribute="trailing" constant="15" id="DJd-lV-aNd"/>
+                <constraint firstItem="0Uc-rf-cls" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="Lk6-TW-GH9"/>
+                <constraint firstAttribute="bottom" secondItem="0Uc-rf-cls" secondAttribute="bottom" constant="4" id="PUr-OO-yhe"/>
+                <constraint firstItem="xYl-jg-E41" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ajb-TZ-NYb"/>
+                <constraint firstItem="xYl-jg-E41" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hWb-F6-oHo"/>
+                <constraint firstAttribute="trailing" secondItem="xYl-jg-E41" secondAttribute="trailing" id="iZc-F9-omg"/>
+                <constraint firstAttribute="bottom" secondItem="xYl-jg-E41" secondAttribute="bottom" constant="50" id="pUp-Dx-f5k"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
